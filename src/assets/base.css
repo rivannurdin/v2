@@ -1,0 +1,104 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre"), 
+    url(./fonts/Calibre/Calibre-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono"),
+    url(./fonts/SFMono/SFMono-Regular.ttf) format("truetype");
+}
+
+:root {
+  --green : #7fffd4;
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #bcbcbc;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+  --bs-sucess: rgba(127, 255, 212); 
+  --bs-sucess-rgb: rgba(127, 255, 212); 
+  --bs-sucess-bg-subtle: rgba(127, 255, 212); 
+  --bs-sucess-border-subtle: rgba(127, 255, 212); 
+  --bs-sucess-text-emphasis: rgba(127, 255, 212); 
+
+  --bs-btn-color: rgba(127, 255, 212);
+  --bs-btn-border-color: rgba(127, 255, 212);
+  --bs-btn-hover-bg: rgba(127, 255, 212);
+  --bs-btn-hover-border-color: #7fffd4;
+  --bs-btn-active-bg: rgba(127, 255, 212);
+  --bs-btn-active-border-color: rgba(127, 255, 212);
+  --bs-btn-disabled-color: rgba(127, 255, 212);
+  --bs-btn-disabled-border-color: rgba(127, 255, 212);
+  --bs-font-monospace: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  /* --bs-font-sans-serif: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; */
+}
+
+/* semantic color variables for this project */
+:root {
+  /* --bs-body-font-family: Calibre, Inter, San Francisco, SF Pro Text,-apple-system,system-ui,sans-serif; */
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: rgba(235, 235, 235, 0.64);
+  --color-text: #ccd6f6;
+
+  --section-gap: 160px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--vt-c-text-dark-2);
+  background: #101715;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.5;
+  font-family: var(--bs-font-sans-serif) !important;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

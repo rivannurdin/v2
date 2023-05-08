@@ -1,0 +1,194 @@
+@import './base.css';
+
+#app {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    line-height: 1.1;
+}
+
+.heroes {
+    display: grid;
+}
+
+.nav-link {
+    margin-right: 10px !important;
+}
+
+a {
+    overflow: hidden;
+    position: relative;
+    color: var(--green);
+    text-decoration-line: none;
+    text-decoration-skip-ink: auto;
+}
+
+p > a:hover {
+    color: var(--green);
+}
+  
+p > a::before, a::after {
+    content : '';
+    position: absolute;
+    width   : 100%;
+    left    : 0;
+}
+
+p > a::before {
+    background-color: var(--green);
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+p > a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: var(--green);
+}
+  
+p > a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+
+p> a:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+  
+p > a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+p > a:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+
+.navbar a:hover {
+    color: rgb(127, 255, 212);
+}
+
+.nav-link {
+    color: var(--vt-c-text-dark-);
+}
+
+.text-success {
+    --bs-text-opacity: 1;
+    color: rgb(127, 255, 212) !important;
+}
+
+.btn-outline-success {
+    --bs-btn-color: rgba(127, 255, 212);
+    --bs-btn-border-color: rgba(127, 255, 212);
+    --bs-btn-hover-bg: rgba(127, 255, 212, 0);
+    --bs-btn-hover-color: rgba(127, 255, 212);
+    --bs-btn-hover-border-color: #7fffd4;
+    --bs-btn-active-bg: rgba(127, 255, 212);
+    --bs-btn-active-border-color: rgba(127, 255, 212);
+    --bs-btn-disabled-color: rgba(127, 255, 212);
+    --bs-btn-disabled-border-color: #7fffd4;
+}
+
+.me-2 {
+    margin-right: 0 !important;
+}
+
+.big-heading {
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+main {
+    margin-top: 0px;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+section {
+    margin: 150px;
+    margin-bottom: 350px;
+
+}
+
+#about {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#jobs {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.img-thumbnail {
+    background: transparent;
+    border: none;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.img-thumbnail:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#about .img-container{
+    display: inline-block;
+    position: relative;
+    background-color: #7fffd4;
+    opacity: 0.8;
+    border-radius: 0.375rem;
+}
+  
+#about .img-container::before {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #7fffd4;
+    content: '';
+}
+
+#about .img-container:hover::before {
+    top: 5%;
+    left: 5%;
+    transition: 1s ease;
+}
+
+.green {
+    color: var(--green);
+}
+
+.navbar .nav-item > a {
+    font-size: 14px;
+}
+.btn {
+    border-radius: 0.2rem;
+    font-size: 14px;
+    font-family: var(--bs-font-monospace);
+}
+.btn-lg {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--green);
+  transform: translateY(-0.25em);
+}
