@@ -1,0 +1,64 @@
+[
+    {
+        "id"         : "1",
+        "company"    : "Graviasi Loka Maya",
+        "position"   : "Backend Developer",
+        "year"       : "2019 - 2023",
+        "task": [
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback."
+        ],
+        "url"        : "kmob.com"
+    },
+    {
+        "id"         : "2",
+        "company"    : "KMOB",
+        "position"   : "Backend Developer",
+        "year"       : "2019 - 2023",
+        "task": [
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback."
+        ],
+        "url"        : "kmob.com"
+    },{
+        "id"         : "3",
+        "company"    : "Hexa Maju Samasta",
+        "position"   : "Backend Developer",
+        "year"       : "2019 - 2023",
+        "task": [
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback."
+        ],
+        "url"        : "kmob.com"
+    },{
+        "id"         : "4",
+        "company"    : "Exaditama Kreativa",
+        "position"   : "Backend Developer",
+        "year"       : "2019 - 2023",
+        "task": [
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback."
+        ],
+        "url"        : "kmob.com"
+    },{
+        "id"         : "5",
+        "company"    : "Exa Aditama Internasional",
+        "position"   : "Backend Developer",
+        "year"       : "2019 - 2023",
+        "task": [
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Developed and styled interactive web applications for Apple Music using Ember and SCSS.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback.",
+            "Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback."
+        ],
+        "url"        : "kmob.com"
+    }
+]

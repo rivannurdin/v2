@@ -9,8 +9,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     line-height: 1.1;
 }
 
-.heroes {
-    display: grid;
+#heroes {
+    margin-top: 100px;
 }
 
 .nav-link {
@@ -18,33 +18,37 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 a {
-    overflow: hidden;
     position: relative;
-    color: var(--green);
     text-decoration-line: none;
     text-decoration-skip-ink: auto;
+    color: #aaa;
 }
 
-p > a:hover {
+a {
+    overflow: hidden;
+    color: var(--green);
+}
+
+a:hover {
     color: var(--green);
 }
   
-p > a::before, a::after {
+p a::before, a::after {
     content : '';
     position: absolute;
     width   : 100%;
     left    : 0;
 }
 
-p > a::before {
+p a::before {
     background-color: var(--green);
-    height: 2px;
+    height: 1px;
     bottom: 0;
     transform-origin: 100% 50%;
     transform: scaleX(0);
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
-p > a::after {
+p a::after {
     content: attr(data-replace);
     height: 100%;
     top: 0;
@@ -54,22 +58,27 @@ p > a::after {
     color: var(--green);
 }
   
-p > a:hover::before {
+p a:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
 }
 
-p> a:hover::after {
+p a:hover::after {
     transform: translate3d(0, 0, 0);
 }
   
-p > a span {
+p a span {
     display: inline-block;
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-p > a:hover span {
+p a:hover span {
     transform: translate3d(-200%, 0, 0);
+}
+
+.navbar &.scroll {
+    box-shadow: 0 0 10px #aaa;
+    background-color: #fff;
 }
 
 .navbar a:hover {
@@ -106,6 +115,10 @@ p > a:hover span {
     font-size: 80px;
 }
 
+.big-heading-2 {
+    font-size: 60px;
+}
+
 main {
     margin-top: 0px;
     margin-right: auto;
@@ -117,34 +130,35 @@ main {
 }
 
 section {
-    margin: 150px;
-    margin-bottom: 350px;
+    padding: 150px;
+    padding-bottom: 150px;
 
 }
 
 #about {
-    padding-left: 90px;
-    padding-right: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 #jobs {
-    padding-left: 200px;
-    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.img-thumbnail {
+img {
     background: transparent;
     border: none;
     padding: 0;
-    opacity: 0.5;
+    opacity: 0.4;
+    cursor: pointer;
 }
 
-.img-thumbnail:hover {
+img:hover {
     opacity: 1;
-    transition: 0.5s ease;
+    /* transition: 0.5s ease; */
 }
 
-#about .img-container{
+#about .img-container {
     display: inline-block;
     position: relative;
     background-color: #7fffd4;
@@ -172,6 +186,11 @@ section {
     color: var(--green);
 }
 
+.navbar .scroll {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
 .navbar .nav-item > a {
     font-size: 14px;
 }
@@ -183,12 +202,118 @@ section {
 .btn-lg {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .btn:hover,
 .btn:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--green);
   transform: translateY(-0.25em);
+}
+
+footer {
+    font-size: 14px;
+}
+
+.footer-content > p{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.card {
+    background-color: #17211f;
+    border-radius: 2px;
+}
+
+#allProjects .card {
+    cursor: pointer;
+    color: #aaa;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.tech {
+    font-size: 12px;
+    padding-right: 10px;
+    color: var(--green);
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#allProjects .card:hover {
+    top: -2%;
+    transform: translateY(-0.25em);
+}
+
+#featuredProject {
+    margin-bottom: 200px;
+}
+
+#featuredProject .row{
+    margin-bottom: 100px;
+}
+
+#featuredProject .img-container {
+    background-color: #7fffd4;
+}
+
+#featuredProject .card {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#allProjects .card:hover,
+#allProjects .card:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--green);
+  transform: translateY(-0.25em);
+  color: #aaa;
+}
+
+#allProjects .card:hover .card-title {
+  color: var(--green) !important;
+}
+
+.font-14 {
+    font-size:14px;
+}
+
+
+#jobs .nav-link {
+    font-family: monospace;
+    font-size: 14 !important;
+    border-radius: 0 !important;
+    cursor: pointer;
+}
+
+#jobs .nav-link::after {
+    content: '';
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #1e2a28;
+}
+
+#jobs .nav-link.active::after {
+    background: var(--green);
+}
+
+#jobs .nav-link:hover {
+    color: var(--green) !important;
+    border-right-color: #7fffd4 !important;
+    background: #1e2a28b7;
+}
+
+.nav-item .nav-link.active {
+    color: var(--green) !important;
+    background-color: transparent;
 }

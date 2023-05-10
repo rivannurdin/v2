@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="col-5 p-3 mt-5">
+      <div class="col-5">
         <div class="img-container mt-3">
           <img src="../assets/me.jpeg" class="img-thumbnail" alt="...">
         </div>

@@ -1,0 +1,97 @@
+[
+    {
+        "name"       : "KMOB",
+        "images"     : "/projects/kmob.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Djangkep",
+        "images"     : "/projects/djangkep.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Mobooking",
+        "images"     : "/projects/mobooking.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel",
+            "Laravel",
+            "Laravel",
+            "Rest API",
+            "Postman",
+            "Ajg"
+        ]
+    },
+    {
+        "name"       : "KMOB",
+        "images"     : "/projects/kmob.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Djangkep",
+        "images"     : "/projects/djangkep.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Mobooking",
+        "images"     : "/projects/mobooking.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "KMOB",
+        "images"     : "/projects/kmob.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Djangkep",
+        "images"     : "/projects/djangkep.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    },
+    {
+        "name"       : "Mobooking",
+        "images"     : "/projects/mobooking.png",
+        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
+        "url"        : "kmob.com",
+        "tech"        : [
+            "PHP",
+            "Laravel"
+        ]
+    }
+]
