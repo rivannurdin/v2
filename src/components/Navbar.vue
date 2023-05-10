@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="300">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-translate">
           <a class="navbar-brand green fw-bold" href="https://rivan-codes.github.io/me" rel="tooltip" title="Rivan Nurdin" data-placement="bottom">
             Rivan Nurdin
@@ -28,7 +28,7 @@
               <a id="aContact" href="#contact" class="nav-link"><span class="text-success">04. </span> Contact</a>
             </li>
             <li class="nav-item" style="transition-delay: 400ms">
-              <button class="btn btn-outline-success" type="button">Resume</button>
+              <a href="/resume.pdf" class="btn btn-outline-success" type="button" target="_blank" rel="noreferrer">Resume</a>
             </li>
           </ul>
         </div>
@@ -40,14 +40,19 @@
   <script>
   import $ from 'jquery';
   export default {
-    name: 'navbar'
+    name: 'navbar',
+    methods: {
+      openInNewTab(url) {
+        window.open(url, '_blank', 'noreferrer');
+      },
+    },
   }
 
   $(document).ready(function(){
     $(window).scroll(function(){
       var scroll = $(window).scrollTop();
       if (scroll > 300) {
-        $("navbar").css("backgound-color" , "#fff");
+        $("navbar").class("bg-dark");
       }
     })
   })

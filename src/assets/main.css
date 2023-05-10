@@ -288,9 +288,11 @@ footer {
 
 #jobs .nav-link {
     font-family: monospace;
-    font-size: 14 !important;
+    font-size: 14px;
     border-radius: 0 !important;
     cursor: pointer;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
 }
 
 #jobs .nav-link::after {
@@ -305,6 +307,7 @@ footer {
 
 #jobs .nav-link.active::after {
     background: var(--green);
+    transform: translateY(-0.25em);
 }
 
 #jobs .nav-link:hover {
@@ -317,3 +320,73 @@ footer {
     color: var(--green) !important;
     background-color: transparent;
 }
+
+.social {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 2%;
+    right: auto;
+
+}
+
+.social ul {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+}
+
+.social a {
+    color: #aaa;
+    cursor: pointer;
+    display: block;
+}
+
+.social a:hover {
+    color: var(--green);
+}
+
+.social li a {
+    padding: 10px;
+}
+
+.social a:hover, li a:focus {
+    transform: translateY(-3px);;
+}
+
+.social svg {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.email-right {
+    width: 40px;
+    position: fixed;
+    bottom: 20%;
+    left: 95%;
+    right: auto;
+    z-index: 10;
+    transform: rotate(90deg);
+}
+
+.email-right a {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.email-right a:hover {
+    color: var(--green);
+    transform: translateY(-3px);;
+
+}
+
+.navbar .container-fluid {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+

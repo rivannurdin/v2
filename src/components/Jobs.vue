@@ -1,5 +1,4 @@
 <script setup>
-  import Job1 from './JobsTab/Job1.vue';
   import dataJobs from '../assets/jobs.json'
 </script>
 
