@@ -186,10 +186,10 @@ img:hover {
     color: var(--green);
 }
 
-.navbar .scroll {
+/* .navbar .scroll {
     background-color: #fff !important;
     transition: background-color 200ms linear;
-}
+} */
 
 .navbar .nav-item > a {
     font-size: 14px;

@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="300">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <div class="navbar-translate">
           <a class="navbar-brand green fw-bold" href="https://rivan-codes.github.io/me" rel="tooltip" title="Rivan Nurdin" data-placement="bottom">
