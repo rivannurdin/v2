@@ -38,22 +38,7 @@
 </template>
   
   <script>
-  import $ from 'jquery';
   export default {
-    name: 'navbar',
-    methods: {
-      openInNewTab(url) {
-        window.open(url, '_blank', 'noreferrer');
-      },
-    },
+    name: 'navbar'
   }
-
-  $(document).ready(function(){
-    $(window).scroll(function(){
-      var scroll = $(window).scrollTop();
-      if (scroll > 300) {
-        $("navbar").class("bg-dark");
-      }
-    })
-  })
   </script>
