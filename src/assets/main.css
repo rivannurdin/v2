@@ -255,11 +255,12 @@ footer {
 }
 
 #featuredProject .row{
-    margin-bottom: 100px;
+    margin-bottom: 250px;
 }
 
 #featuredProject .img-container {
     background-color: #7fffd4;
+    margin: auto;
 }
 
 #featuredProject .card {

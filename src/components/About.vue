@@ -3,9 +3,10 @@
     <div class="row">
       <h2 class="text-light mb-5 fw-bold"><span class="text-success font-monospace">01.</span> About Me</h2>
       <div class="col-7">
-        <p>Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
-        <p> Fast-forward to today, and I’ve had the privilege of working at an advertising agency, <a href="">a start-up</a>, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.</p>
-        <p>I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.</p>
+        <p>Hello! My name is Rivan an ordinary man who happens destined to become a Backend Developer in 2017 and has been working in this field for more than five years now, particularly in building Management APIs.</p>
+        <p>My passion lies in working on lean and agile development projects through the Scrum methodology, whether as part of a team or independently, to come up with innovative solutions.</p>
+        <p>Currently, my main focus is on product maintenance and handling various client projects as a freelance developer <a href="https://www.gravitasi.co.id" target="_blank" rel="noreferrer">Gravitasi</a> and <a href="https://www.linkedin.com/company/pt-hms" target="_blank" rel="noreferrer">Hexa Maju Samasta</a></p>
+        <p>Recently, I was also involved in developing a digital innovation called <a href="https://djangkepapp.gravita.si" target="_blank" rel="noreferrer">Djangkep</a>, which is a filing management platform designed for village governments in Bali. Also managing the maintenance of the backend <a href="https://www.gravitasi.co.id" target="_blank" rel="noreferrer">KMOB Depok</a> platform that I had previously created.</p>
         <p>Here are a few technologies I’ve been working with recently:</p>
         <div class="row">
           <div class="col-6">
