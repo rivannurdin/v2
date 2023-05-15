@@ -8,11 +8,11 @@
 <template>
   <div class="social">
     <ul>
-      <li social-item><a href=""> <iconGithub /></a></li>
-      <li social-item><a href=""> <iconInstagram /></a></li>
-      <li social-item><a href=""> <iconLinkedin /></a></li>
-      <li social-item><a href=""> <iconMedium /></a></li>
-      <li social-item><a href=""> <iconStartup /></a></li>
+      <li social-item><a href="https://github.com/rivan-codes" target="_blank" rel="noopener noreferrer"> <iconGithub /></a></li>
+      <li social-item><a href="https://www.instagram.com/rebahanism_" target="_blank" rel="noopener noreferrer"> <iconInstagram /></a></li>
+      <li social-item><a href="https://www.linkedin.com/in/rivannurdin" target="_blank" rel="noopener noreferrer"> <iconLinkedin /></a></li>
+      <li social-item><a href="https://rebahanisme.medium.com" target="_blank" rel="noopener noreferrer"> <iconMedium /></a></li>
+      <li social-item><a href="https://djangkepapp.gravita.si" target="_blank" rel="noopener noreferrer"> <iconStartup /></a></li>
     </ul>
   </div>
   

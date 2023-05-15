@@ -18,7 +18,7 @@
         <div class="tab-content" id="myTabContent">
           <div v-for="data in dataJobs" :key="data.id">
             <div class="tab-pane fade show active" id="job1" role="tabpanel" aria-labelledby="job1-tab"  v-if="activetab ===data.id">
-              <p class="text-light"><strong>{{data.position}}</strong> <span class="green"><strong>@ </strong></span><a href="{{ data.url }}" target="_blank" rel="noreferrer"><strong>{{data.company}}</strong></a></p>
+              <p class="text-light"><strong>{{data.position}}</strong> <span class="green"><strong>@ </strong></span> <a :href="data.url" target="_blank" rel="noreferrer"><strong>{{data.company}}</strong></a></p>
               <p class="font-monospace font-14">{{data.year}}</p>
               <ul>
                   <li v-for="task in data.task">

@@ -71,7 +71,7 @@
       <h3 class="text-light mb-5 fw-bold text-center">Other Noteworthy Projects</h3>
       <div class="row">
         <div class="col-md-4" v-for="data in projectsLoaded" :key="data.id">
-          <a href="">
+          <a :href="data.url" target="_blank" rel="noreferrer">
             <div class="card" style="transition-delay: 100ms">
             <div class="card-body">
               <h5 class="card-title text-light">{{data.name}}</h5>

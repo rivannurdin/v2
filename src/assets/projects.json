@@ -1,97 +1,91 @@
 [
     {
-        "name"       : "KMOB",
+        "name"       : "Service Desk Telkom University",
         "images"     : "/projects/kmob.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "Web-based application for students, lecturers, employees in making suggestion and complaint tickets.",
+        "url"        : "#",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "Djangkep",
-        "images"     : "/projects/djangkep.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
-        "tech"        : [
-            "PHP",
-            "Laravel"
-        ]
-    },
-    {
-        "name"       : "Mobooking",
-        "images"     : "/projects/mobooking.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
-        "tech"        : [
-            "PHP",
-            "Laravel",
-            "Laravel",
-            "Laravel",
-            "Rest API",
-            "Postman",
-            "Ajg"
-        ]
-    },
-    {
-        "name"       : "KMOB",
+        "name"       : "UseeTV Dashboard",
         "images"     : "/projects/kmob.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "Web-based application for managing customer data at Indihome.",
+        "url"        : "#",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "Djangkep",
+        "name"       : "BINPRES KONI JAWA BARAT",
         "images"     : "/projects/djangkep.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "West Java Koni Binpres is an information system used within the West Java KONI to input data on registered athletes.",
+        "url"        : "#",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "Mobooking",
+        "name"       : "Fastpum",
         "images"     : "/projects/mobooking.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "Applications for a foreign permit, appointments, and dismissals for regional heads in the West Java environment, where the submission will be generated into an official letter signed directly by the Governor.",
+        "url"        : "https://play.google.com/store/apps/details?id=com.faspemum",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "KMOB",
+        "name"       : "SERVICE INFORMATION SYSTEM UPTP IV - BANDUNG METROLOGY DIRECTORATE",
         "images"     : "/projects/kmob.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "This application is only used in the Metrology environment, especially the city of Bandung, which is to facilitate the assessment process for letters and related documents.",
+        "url"        : "https://play.google.com/store/apps/details?id=com.metrologi",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "Djangkep",
+        "name"       : "MyTreats Asia",
         "images"     : "/projects/djangkep.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "MyTreats Asia is an online-to-offline (O2O) platform that enables all Malaysian buyers and traders to benefit from bulk trading services. Together as the main collaborative partner of the national cooperative organization MyAngkasa Holdings, we are working together towards the goal of mitigating rising inflation affecting Malaysia's B40.",
+        "url"        : "https://www.instagram.com/mytreatsasia",
         "tech"        : [
             "PHP",
             "Laravel"
         ]
     },
     {
-        "name"       : "Mobooking",
+        "name"       : "Simelon Pertamina",
         "images"     : "/projects/mobooking.png",
-        "description": "KMOB is an Android and IOS based application that uses a mobile phone as a device and is designed to perform routine work such as attendance, requests for leave, permits, overtime and others. By using this application reporting is easy, and fully integrated.",
-        "url"        : "kmob.com",
+        "description": "SIM3LON Is a web-based information system to facilitate Bases, Agents, Regions and Central Pertamina in conducting monthly and quarterly verification.",
+        "url"        : "https://apps.pertamina.com/simelon_v2/login",
         "tech"        : [
             "PHP",
-            "Laravel"
+            "Phalcon",
+            "MySQL"
+        ]
+    },
+    {
+        "name"       : "Trend Bandung Company Profile",
+        "images"     : "/projects/djangkep.png",
+        "description": "Website company profile fashion dibuat menggunakan WordPress..",
+        "url"        : "https://trendbandung.id",
+        "tech"        : [
+            "WordPress"
+        ]
+    },
+    {
+        "name"       : "Company Profile Fadila Catering",
+        "images"     : "/projects/mobooking.png",
+        "description": "Website company profile catering dibuat menggunakan WordPress..",
+        "url"        : "http://fadilacatering.com",
+        "tech"        : [
+            "WordPress"
         ]
     }
 ]
