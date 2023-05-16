@@ -1,12 +1,22 @@
 [
     {
+        "name"       : "Pelangi Mizan Company Profile",
+        "images"     : "/projects/kmob.png",
+        "description": "Company profile website for selling children's Islamic books.",
+        "url"        : "https://pelangimizan.id",
+        "tech"        : [
+            "WordPress"
+        ]
+    },
+    {
         "name"       : "Service Desk Telkom University",
         "images"     : "/projects/kmob.png",
         "description": "Web-based application for students, lecturers, employees in making suggestion and complaint tickets.",
         "url"        : "#",
         "tech"        : [
             "PHP",
-            "Laravel"
+            "Laravel",
+            "Single Sign On (SSO)"
         ]
     },
     {
@@ -73,16 +83,16 @@
     {
         "name"       : "Trend Bandung Company Profile",
         "images"     : "/projects/djangkep.png",
-        "description": "Website company profile fashion dibuat menggunakan WordPress..",
+        "description": "Website company profile fashion dibuat menggunakan WordPress.",
         "url"        : "https://trendbandung.id",
         "tech"        : [
             "WordPress"
         ]
     },
     {
-        "name"       : "Company Profile Fadila Catering",
+        "name"       : "Fadila Catering Company Profile",
         "images"     : "/projects/mobooking.png",
-        "description": "Website company profile catering dibuat menggunakan WordPress..",
+        "description": "Website company profile catering dibuat menggunakan WordPress.",
         "url"        : "http://fadilacatering.com",
         "tech"        : [
             "WordPress"

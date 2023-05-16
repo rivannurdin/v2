@@ -75,7 +75,7 @@
             <div class="card" style="transition-delay: 100ms">
             <div class="card-body">
               <h5 class="card-title text-light">{{data.name}}</h5>
-              <p class="card-text">{{data.description}}.</p>
+              <p class="card-text">{{data.description}}</p>
               <span v-for="tech in data.tech" class="font-monospace tech">{{ tech }} </span>
             </div>
           </div>

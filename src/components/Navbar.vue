@@ -3,8 +3,9 @@
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <div class="navbar-translate">
-          <a class="navbar-brand green fw-bold" href="https://rivan-codes.github.io/me" rel="tooltip" title="Rivan Nurdin" data-placement="bottom">
-            Rivan Nurdin
+          <a class="navbar-brand fw-bold" href="/" rel="tooltip" title="Rivan Nurdin" data-placement="bottom">
+            <!-- Rivan Nurdin -->
+            <img src="../../public/favicon.png" alt="" style="width: 25px;">
           </a>
           <button class="navbar-toggler navbar-toggler toggled" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar bar1"></span>

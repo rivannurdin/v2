@@ -158,6 +158,10 @@ img:hover {
     /* transition: 0.5s ease; */
 }
 
+nav img {
+    opacity: 1 !important;
+}
+
 #about .img-container {
     display: inline-block;
     position: relative;
