@@ -1,7 +1,7 @@
 # Profile Page V2
 
-This template should help get you started developing with Vue 3 in Vite.
-Visit [Profile Page V2](https://rivannurdin.github.io/v2)
+This profile template belongs to [Brittany Chiang](https://github.com/bchiang7?tab=repositories), who helped me get started developing a profile page with Vue 3 on Vite.
+Visit [Profile Page V2](https://rivannurdin.github.io/v2) for preview.
 
 ## Recommended IDE Setup
 
